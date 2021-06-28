@@ -61,6 +61,9 @@ body {
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     grid-column-gap: 100px;
 }
+.post-item {
+    padding-top: 30px;
+}
 .post-item img {
     margin: 0;
 }
@@ -73,5 +76,15 @@ body {
     color: #7A83A0;
     font-weight: 300;
     font-size: 0.9rem;
-    padding: 0 5px;
+    padding: 0 2px;
+}
+.post-heading h2 {
+    line-height: 1.4;
+}
+.post-sub p {
+    color: #7A83A0;
+}
+.post-sub a {
+    text-decoration: none;
+    color: #3948BE;
 }
