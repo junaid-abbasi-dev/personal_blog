@@ -12,10 +12,16 @@ body {
     align-items: center;
     font-weight: 500;
     font-size: 1.1rem;
+    flex: wrap;
 }
 .logo-image {
     width: 30px;
     height: 30px;
+}
+.search-image {
+    width: 25px;
+    height: 25px;
+    margin-left: 20px;
 }
 .nav {
     list-style: none;
@@ -27,9 +33,11 @@ body {
     color: #7A83A0;
     text-decoration: none;
     display: block;
+    transition: all 0.3s ease-out;
 }
 .nav a:hover {
     color: #676D94;
+    font-size: 1.2rem;
 }
 .nav li {
     margin-left: 40px;
