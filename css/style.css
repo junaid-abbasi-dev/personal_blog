@@ -49,3 +49,29 @@ body {
     font-weight: 700;
     font-size: 100px;
 }
+.posts {
+    padding: 60px 45px;
+    display: flex;
+    justify-content: space-between;
+}
+.posts-inner {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-column-gap: 100px;
+}
+.post-item img {
+    margin: 0;
+}
+.post-image {
+    max-width: 300px;
+    border-radius: 8px;
+    display: inline-block;
+}
+.post-date {
+    color: #7A83A0;
+    font-weight: 300;
+    font-size: 0.9rem;
+    padding: 0 5px;
+}
