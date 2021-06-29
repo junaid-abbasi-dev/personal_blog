@@ -69,6 +69,7 @@ body {
 }
 .post-image {
     max-width: 300px;
+    max-height: 400px;
     border-radius: 8px;
     display: inline-block;
 }
@@ -88,3 +89,10 @@ body {
     text-decoration: none;
     color: #3948BE;
 }
+.footer {
+    text-align: center;
+    padding: 20px;
+    color: #3948BE;
+    font-size: 0.9rem;
+    background-color: #7A83A0;
+  }
