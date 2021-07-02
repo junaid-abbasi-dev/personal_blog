@@ -128,7 +128,7 @@ body {
     padding-top: 30px;
 }
 .main-image {
-    height: 800px;
+    height: 400px;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -142,5 +142,15 @@ body {
     .hero h1 {
         font-weight: 700;
         font-size: 6.5rem;
+    }
+    .main-image {
+        height: 800px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .main-image img {
+        max-width: 100%;
+        max-height: 100%;
     }
  }
