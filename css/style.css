@@ -128,11 +128,10 @@ body {
     padding-top: 30px;
 }
 .main-image {
-    height: 400px;
-    width: 80%;
+    height: 100%;
+    width: 100%;
     display: flex;
     justify-content: center;
-    padding-left: 70px;
 }
 .main-image img {
     max-width: 100%;
