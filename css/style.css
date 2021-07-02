@@ -47,7 +47,7 @@ body {
 }
 .hero h1 {
     font-weight: 700;
-    font-size: 100px;
+    font-size: 4rem;
 }
 .posts {
     padding: 20px;
@@ -72,6 +72,9 @@ body {
     border-radius: 8px;
     display: inline-block;
 }
+.post-image:hover {
+    cursor: pointer;
+}
 .post-date {
     color: #7A83A0;
     font-weight: 300;
@@ -80,6 +83,7 @@ body {
 }
 .post-heading h2 {
     line-height: 1.4;
+    cursor: pointer;
 }
 .post-sub p {
     color: #7A83A0;
@@ -115,4 +119,10 @@ body {
   .button:hover {
       background-color: #6872bd;
   }
- 
+ /* Responsive query */
+ @media screen and (min-width: 850px) {
+    .hero h1 {
+        font-weight: 700;
+        font-size: 6.5rem;
+    }
+ }
