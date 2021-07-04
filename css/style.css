@@ -1,5 +1,6 @@
 @import url('base.css');
 @import url('blog.css');
+@import url('media_queries.css');
 .hero {
     padding-left: 150px;
 }
@@ -50,40 +51,27 @@
     text-decoration: none;
     color: #3948BE;
 }
-
-  .button-div {
-      display: flex;
-      justify-content: center;
-      padding: 45px 45px;
-  }
-  .button {
-      background-color: #3948BE;
-      color: #fff;
-      text-decoration: none;
-      padding: 15px 22px;
-      border-radius: 8px;
-      font-size: 1.18rem;
-      display: inline-block;
-  }
-  .button:hover {
-      background-color: #6872bd;
-  }
-
-  /* blog css */
-
-  /* Responsive query */
- @media screen and (min-width: 850px) {
-    .hero h1 {
-        font-weight: 700;
-        font-size: 6.5rem;
-    }
-    .heading h1 {
-        font-weight: 700;
-        font-size: 3.5rem;
-    }
-    .sub p {
-        font-weight: 500;
-        font-size: 1.2rem;
-        opacity: 0.8;
-    }
- }
+.button-div {
+    display: flex;
+    justify-content: center;
+    padding: 45px 45px;
+}
+.button {
+    background-color: #3948BE;
+    color: #fff;
+    text-decoration: none;
+    padding: 15px 22px;
+    border-radius: 8px;
+    font-size: 1.18rem;
+    display: inline-block;
+}
+.button:hover {
+    background-color: #6872bd;
+}
+blockquote {
+    display: block;
+    border-left: 2px solid #3948BE;
+    padding-left: 40px;
+    margin: 20px;
+    max-width: 80%;
+}
