@@ -3,7 +3,7 @@
 *::after {
   padding: 0;
   margin: 0;
-  box-sizing: inherit;
+  box-sizing: border-box;
 }
 
 a,
@@ -37,6 +37,7 @@ body {
     width: 25px;
     height: 25px;
     margin-left: 20px;
+    display: none;
 }
 .nav {
     list-style: none;
@@ -55,7 +56,7 @@ body {
     font-size: 1.2rem;
 }
 .nav li {
-    margin-left: 40px;
+    margin-left: 10px;
 }
 .footer {
     text-align: center;
@@ -66,4 +67,10 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+  }
+
+  @media screen and (min-width: 850px) {
+    .nav li {
+        margin-left: 40px;
+    }
   }
